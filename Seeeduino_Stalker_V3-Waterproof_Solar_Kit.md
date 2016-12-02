@@ -1,11 +1,10 @@
-# Seeeduino Stalker V3 - Waterproof Solar Kit
 ---
 title: Seeeduino Stalker V3 - Waterproof Solar Kit
 category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-Stalker-V3-Waterproof-Solar-Kit-p-2441.html
 oldwikiname:   Seeeduino Stalker V3 - Waterproof Solar Kit
-prodimagename:  Seeeduino_ethernet-2.jpg
-surveyurl: https://www.research.net/r/Seeeduino_Mega_Protoshield_Kit
+prodimagename:  Seeeduino_Stalker_V3-Waterproof_Solar_Kit.JPG
+surveyurl: https://www.research.net/r/Seeeduino_Stalker_V3_Waterproof_Solar_Kit
 sku:   110010003
 ---
 ![](https://github.com/SeeedDocument/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/raw/master/img/Seeeduino_Stalker_V3-Waterproof_Solar_Kit.JPG)
@@ -119,23 +118,35 @@ The Stalker Kit includes all necessary components to work with Seeeduino Stalker
 
 ![](https://github.com/SeeedDocument/Seeeduino_Stalker_V3-Waterproof_Solar_Kit/raw/master/img/700px-Stalker_v3.0_and_the_Bees.jpg)
 
-Image:Stalker v3.0 and the Bees.jpg|thumb|none|700px|alt=Photo of a Seeeduino Stalker v3 PCB and the various Bee modules that are compatible with.|The various Bee modules that can be used with Seeeduino Stalker v3 _(**Click on the modules to visit their Wiki pages**)_
 poly 441 45 508 17 567 79 505 120 [UartSBee](/UartSBee "UartSBee")
+
 poly 75 0 353 0 353 102 75 99 [WiFiBee](/w/index.php?title=Bee_series&amp;action=edit&amp;redlink=1 "Bee_series&amp;action=edit&amp;redlink=1")
+
 poly 18 105 294 107 295 203 18 203 [BluetoothBee](/Bluetooth_Bee "Bluetooth Bee")
+
 poly 2 212 274 212 275 327 2 326 [XBee](/XBee_Pro_Series2_RF_module "XBee Pro Series2 RF module")
+
 poly 18 337 303 338 303 448 15 447 [GPSBee](/w/index.php?title=GPS_Bee_kit_(with_Mini_Embedded_Antenna)&amp;action=edit&amp;redlink=1 "GPS_Bee_kit_(with_Mini_Embedded_Antenna)&amp;action=edit&amp;redlink=1")
+
 poly 38 459 379 459 379 570 37 571 [RFBee](/RFbee_V1.1-Wireless_Arduino_compatible_node "RFbee V1.1 - Wireless Arduino compatible node")
+
 poly 400 55 477 106 424 147 354 97 [WiFiBee](/w/index.php?title=Bee_series&amp;action=edit&amp;redlink=1 "Bee_series&amp;action=edit&amp;redlink=1")
+
 poly 307 143 336 136 398 140 392 189 333 187 318 174 302 176 [BluetoothBee](/Bluetooth_Bee "Bluetooth Bee")
+
 poly 290 238 308 221 394 214 396 271 306 283 290 265 [XBee](/XBee_Pro_Series2_RF_module "XBee Pro Series2 RF module")
+
 poly 321 353 333 330 395 306 427 364 359 393 335 380 [GPSBee](/w/index.php?title=GPS_Bee_kit_(with_Mini_Embedded_Antenna)&amp;action=edit&amp;redlink=1 "GPS_Bee_kit_(with_Mini_Embedded_Antenna)&amp;action=edit&amp;redlink=1")
+
 poly 409 464 417 432 488 389 537 445 463 498 426 491 [RFBee](/RFbee_V1.1-Wireless_Arduino_compatible_node "RFbee V1.1 - Wireless Arduino compatible node")
+
 poly 455 280 454 215 490 186 683 184 724 211 740 297 706 331 494 333 489 278 [Seeeduino-Stalker v3](/Seeeduino-Stalker_v3 "Seeeduino-Stalker v3")
+
 poly 570 132 573 13 802 16 803 131 [UartSBee](/UartSBee "UartSBee")
 &lt;/imagemap&gt;
 
-**NOTE: Please note that [UartSBee](/UartSBee "UartSBee") cannot be inserted into the Bee Series socket present on Seeeduino Stalker. The [UartSBee](/UartSBee "UartSBee") is intended for interfacing the other Bee modules (shown in the photo above) to a computer and cannot itself be be inserted into the socket meant for these other Bee modules. There is a separate 5 way pinheader present on UartSBee as well as Seeeduino Stalker for interfacing them to each other. This pinheader is composed of: VCC (to supply power to Stalker), TXD, RXD, DTR (for controlling Stalker's Reset signal) &amp; GND.**
+!!!NOTE
+    Please note that [UartSBee](/UartSBee "UartSBee") cannot be inserted into the Bee Series socket present on Seeeduino Stalker. The [UartSBee](/UartSBee "UartSBee") is intended for interfacing the other Bee modules (shown in the photo above) to a computer and cannot itself be be inserted into the socket meant for these other Bee modules. There is a separate 5 way pinheader present on UartSBee as well as Seeeduino Stalker for interfacing them to each other. This pinheader is composed of: VCC (to supply power to Stalker), TXD, RXD, DTR (for controlling Stalker's Reset signal) &amp; GND.**
 
 ##   Usage
 ---
@@ -182,42 +193,36 @@ Seeeduino Stalker v3 &lt;---&gt; UartSBee v4.0 connection</div></div></div>
 <tr>
 <th> Seeeduino Stalker
 </th>
-<th>
 </th>
 <th> UartSBee
 </th></tr>
 <tr>
 <td> USB5V
 </td>
-<td>
 </td>
 <td> VCC
 </td></tr>
 <tr>
 <td> <font color="Red">RXD </font>
 </td>
-<td>
 </td>
 <td> <font color="Green">TXD </font>
 </td></tr>
 <tr>
 <td> <font color="Green">TXD </font>
 </td>
-<td>
 </td>
 <td> <font color="Red">RXD </font>
 </td></tr>
 <tr>
 <td> GND
 </td>
-<td>
 </td>
 <td> GND
 </td></tr>
 <tr>
 <td> DTR
 </td>
-<td>
 </td>
 <td> DTR
 </td></tr></table>
@@ -313,10 +318,7 @@ The principal application of Seeeduino Stalker v3.0 is data-logging of sensor si
 
 ##   Resources
 ---
-*   Download from [Seeeduino-Stalker v3](/Seeeduino-Stalker_v3 "Seeeduino-Stalker v3") page
 
-*   [Seeeduino-Stalker v3](/Seeeduino-Stalker_v3 "Seeeduino-Stalker v3")
-
-*   [ Comparison between various versions of Seeeduino Stalker](/Seeeduino_Stalker#Comparison_between_various_versions_of_Seeeduino_Stalker "Seeeduino Stalker")
+*   [ Comparison between various versions of Seeeduino Stalker](http://wiki.seeedstudio.com/wiki/Seeeduino_Stalker#Comparison_between_various_versions_of_Seeeduino_Stalker)
 
 *   [SD card reading mini-USB cable, in a capsule](http://www.seeedstudio.com/depot/sd-card-reading-miniusb-cable-in-a-capsule-p-575.html?cPath=77)
